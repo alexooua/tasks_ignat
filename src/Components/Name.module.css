@@ -1,0 +1,36 @@
+.name{
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+
+}
+.greetingIam {
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    width: 80%;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.tittle {
+    margin: 15px;
+    width: 40ch;
+    color: #39d03f;
+    font-size: 40px;
+    font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #5ec5e1;
+    animation: flashing-border 0.75s step-end infinite,
+    printed-text 5s steps(22);
+}
+
+
+@keyframes printed-text {
+    from {
+        width: 0;
+    }
+}

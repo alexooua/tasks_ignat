@@ -1,0 +1,14 @@
+.task {
+    border: 2px solid #fff;
+    /*border-radius:10px;*/
+    width: 60%;
+    position: relative;
+    text-shadow: 7px 1px 11px black;
+    box-shadow: 12px 6px 15px 6px black;
+    color: #501b38;
+    background-color: #dfd7af;
+    margin: 2em;
+}
+text{
+    word-wrap: break-word;
+}
