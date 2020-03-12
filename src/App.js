@@ -2,6 +2,7 @@ import React from 'react';
 import Name from "./Components/Name";
 import Cloud from "./Components/Cloud";
 import Task from "./Components/Task";
+import Map from "./Components/Map";
 import './App.css';
 // import Particles from "react-particles-js";
 
@@ -85,6 +86,7 @@ function App() {
         <Task />
         <Name />
         <Cloud />
+        <Map />
 
     </div>
 
