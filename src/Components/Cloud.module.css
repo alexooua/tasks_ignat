@@ -97,6 +97,7 @@
 
 .item:nth-child(1) {
     margin-left: 3em;
+    margin-bottom: 1em;
      -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 2;
     -webkit-order: 1;
@@ -113,6 +114,9 @@
 }
 
 .item:nth-child(2) {
+    overflow: hidden;
+    text-overflow: clip;
+    word-break: break-word;;
     margin-left: 3em;
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
