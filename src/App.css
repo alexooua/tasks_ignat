@@ -24,11 +24,3 @@
     background: black;
 
 }
-.rand {
-    width:0;
-    height:0;
-    border: 116px solid green;
-    border-right-color: red;
-    border-bottom-color: white;
-    border-left-color: blue;
-}

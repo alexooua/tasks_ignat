@@ -12,6 +12,9 @@ function Cloud() {
     return (
 
             <div className={s.body}>
+
+                <div className={s.avatar}>
+                </div>
                 <div className={s.cloud}>
                     <div className={s.container}>
                         <div className={s.item}><span contentEditable="">Заяц Алексей</span></div>

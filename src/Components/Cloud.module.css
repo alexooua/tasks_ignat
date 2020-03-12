@@ -3,14 +3,25 @@
     height: 10em;
     width: 60%;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     align-items: center;
     border: 3px solid white;
 }
+.avatar{
+    height: 8em;
+    width: 8em;
+    background-image: url(https://philipposmylonas.com/assets/themes/base/images/site/avatar_400x400.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin : auto;
+    border-radius: 4em;
+
+}
 .cloud {
+    margin : auto;
     border: 2px solid #fff;
     /*border-radius:10px;*/
     height: 6em;
@@ -27,21 +38,23 @@
 }
 
 .cloud:before {
-    border: 32px solid transparent;
-    border-right-color: #ffffff;
+    border: 50px solid transparent;
+    border-color: #ffffff;
     position: absolute;
-    right: 100%;
-    bottom: -3px;
+    right: 434px;
+    bottom: -2px;
     content: '';
+    border-bottom-right-radius: 49px;
 }
 
 .cloud:after {
-    border: 30px solid transparent;
-    border-right-color: #5ec5e1;
+    border: 51px solid transparent;
+    border-color: #000000;
     position: absolute;
-    right: 100%;
-    bottom: -1px;
+    right: 437px;
+    bottom: -2px;
     content: '';
+    border-bottom-right-radius: 51px;
 }
 
 
@@ -83,6 +96,7 @@
 }
 
 .item:nth-child(1) {
+    margin-left: 3em;
      -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 2;
     -webkit-order: 1;
@@ -99,7 +113,7 @@
 }
 
 .item:nth-child(2) {
-
+    margin-left: 3em;
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
     -webkit-order: 2;
