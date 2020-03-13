@@ -10,23 +10,23 @@ function Map() {
     }
 
     function NumberList(props) {
-        const numbers = props.numbers;
+        const qualities = props.qualities;
         return (
             <div>
-                {numbers.map((number) =>
-                    <ListItem key={number.toString()}
-                              value={number} />
+                {qualities.map((quality,i) =>
+                    <ListItem key={i}
+                              value={quality} />
                 )}
             </div>
         );
     }
 
-    const numbers = ["Рационалист","Комуннист","Анимешник" ];
+    const qualities = ["Рационалист","Комуннист","Анимешник" ];
 
     return (
 
             <div id="mapDiv">
-                <NumberList numbers={numbers} />
+                <NumberList qualities={qualities} />
 
             </div>
 
