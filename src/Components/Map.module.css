@@ -11,7 +11,7 @@
     border: 3px solid white;
 }
 
-p{
+.text {
 
     font-size: x-large;
     margin: 20px;
@@ -20,3 +20,6 @@ p{
     border-radius: 20px;
 }
 
+.red{
+    background-color: crimson;
+}

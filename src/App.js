@@ -3,6 +3,8 @@ import Name from "./Components/Name";
 import Cloud from "./Components/Cloud";
 import Task from "./Components/Task";
 import Map from "./Components/Map";
+import MapTaskAndExamples  from "./Components/MapTaskAndExamples";
+
 import './App.css';
 // import Particles from "react-particles-js";
 
@@ -87,6 +89,7 @@ function App() {
         <Name />
         <Cloud />
         <Map />
+        <MapTaskAndExamples />
 
     </div>
 

@@ -4,12 +4,12 @@ import s from './Map.module.css';
 
 function Map() {
     function ListItem(props) {
-     console.log(props);
-        let red=props.value === "Комуннист" ? "red" : "";
-        return <p className={red}>{props.value}</p>;
+     console.log(props)
+        let text=props.value === "Комуннист" ? s.text : "";
+        return <p className={text}>{props.value}</p>;
     }
 
-    function NumberList(props) {
+    function QualitiesList(props) {
         const qualities = props.qualities;
         return (
             <div>
@@ -26,7 +26,7 @@ function Map() {
     return (
 
             <div id="mapDiv">
-                <NumberList qualities={qualities} />
+                <QualitiesList qualities={qualities} />
 
             </div>
 
