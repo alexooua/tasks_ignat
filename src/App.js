@@ -3,7 +3,7 @@ import Name from "./Components/Name";
 import Cloud from "./Components/Cloud";
 import Task from "./Components/Task";
 import Map from "./Components/Map";
-import MapTaskAndExamples  from "./Components/MapTaskAndExamples";
+import Task_3 from "./Components/Task_3";
 
 import './App.css';
 // import Particles from "react-particles-js";
@@ -86,10 +86,14 @@ function App() {
     <div className="App">
         {/*<Particles className="particles" params={params}/>*/}
         <Task />
+
         <Name />
+
         <Cloud />
+
         <Map />
-        <MapTaskAndExamples />
+
+        <Task_3/>
 
     </div>
 
