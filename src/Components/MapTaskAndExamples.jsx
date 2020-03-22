@@ -132,9 +132,8 @@ function MapTaskAndExamples() {
                 <h2>Decision</h2>
                 <text className={s.text}>
                     let oldArray = [23, 5, null, true, 'Bob', [], {}];<br/>
-                    let newArray = [];<br/>
-
-                    // Код пишем здесь!!!<br/>
+                    {`let newArray = [];`}<br/>
+                    {`// Код пишем здуесь!!!`}<br/>
                     {` newArray=oldArray.map(el=>{`}<br/>
                     {` let result;`}<br/>
                     {`switch (typeof el) {`}<br/>
@@ -175,9 +174,9 @@ function MapTaskAndExamples() {
                     {`   {age: 18, name: 'Katya'},`}<br/>
                     {`{age: 23, name: 'Andrey'}`}<br/>
                     ];<br/>
-                    let oldUsers = [];<br/>
+                    {`let oldUsers = [];`}<br/>
 
-                    // Код пишем здесь!!!<br/>
+                    {`// Код пишем здесь!!!`}<br/>
                     oldUsers=users.filter(us=>us.age>=18);<br/>
                     console.log(oldUsers);<br/>
                 </code>

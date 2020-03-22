@@ -4,7 +4,6 @@ import s from './Map.module.css';
 
 function Map() {
     function ListItem(props) {
-     console.log(props)
         let text=props.value === "Комуннист" ? s.red : "";
         return <p className={text+' '+s.qvol}>{props.value}</p>;
     }

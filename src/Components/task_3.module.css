@@ -1,0 +1,25 @@
+.body{
+    background-color: #02009b;
+    height: 10em;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+
+.qvol{
+
+    font-size: x-large;
+    margin: 20px;
+    border: 20px solid black;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.red{
+    background-color: crimson;
+}
