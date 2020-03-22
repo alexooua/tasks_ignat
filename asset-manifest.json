@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tasks_ignat/static/css/main.ca54527b.chunk.css",
-    "main.js": "/tasks_ignat/static/js/main.e50d4655.chunk.js",
-    "main.js.map": "/tasks_ignat/static/js/main.e50d4655.chunk.js.map",
+    "main.js": "/tasks_ignat/static/js/main.c8fffdad.chunk.js",
+    "main.js.map": "/tasks_ignat/static/js/main.c8fffdad.chunk.js.map",
     "runtime-main.js": "/tasks_ignat/static/js/runtime-main.8927566f.js",
     "runtime-main.js.map": "/tasks_ignat/static/js/runtime-main.8927566f.js.map",
     "static/js/2.55a5051e.chunk.js": "/tasks_ignat/static/js/2.55a5051e.chunk.js",
     "static/js/2.55a5051e.chunk.js.map": "/tasks_ignat/static/js/2.55a5051e.chunk.js.map",
     "index.html": "/tasks_ignat/index.html",
-    "precache-manifest.deb1d03f42fd7ad5678ab0c2f057e604.js": "/tasks_ignat/precache-manifest.deb1d03f42fd7ad5678ab0c2f057e604.js",
+    "precache-manifest.796af58914452c87e01655abe9f24e03.js": "/tasks_ignat/precache-manifest.796af58914452c87e01655abe9f24e03.js",
     "service-worker.js": "/tasks_ignat/service-worker.js",
     "static/css/main.ca54527b.chunk.css.map": "/tasks_ignat/static/css/main.ca54527b.chunk.css.map",
     "static/js/2.55a5051e.chunk.js.LICENSE.txt": "/tasks_ignat/static/js/2.55a5051e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8927566f.js",
     "static/js/2.55a5051e.chunk.js",
     "static/css/main.ca54527b.chunk.css",
-    "static/js/main.e50d4655.chunk.js"
+    "static/js/main.c8fffdad.chunk.js"
   ]
 }
