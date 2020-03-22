@@ -1,25 +1,31 @@
 import React from 'react';
 import s from "./Task_3.module.css"
 
-
 class Task_3 extends React.Component {
     task_3Ref = React.createRef()
     state = {
         person: [
             {
                 name: "",
-                num:0
-            }
-        ]
 
+            },
+        ],
+        num:0
     }
+
     task_3Button = () => {
         let newName = this.task_3Ref.current.value;
+        let num=this.state.num;
         if (newName) {
-            this.task_3Ref.current.value = '';
-
+            this.task_3Ref.current.value = ''
+            num++
+            this.setState({
+                num:num
+            })
+         alert(`HI!!! My name is ${newName}`)
         }
     }
+
 
     render = () => {
 
@@ -30,7 +36,7 @@ class Task_3 extends React.Component {
                     <div className={s.title}><h3>Task_3</h3></div>
                     <div className={s.block}>
                         <ol className={s.rounded}>
-                            <li><span>Число имён {this.state.person[0].num}</span></li>
+                            <li><span>Число имён <myspan className={s.num}>{this.state.num}</myspan></span></li>
                         </ol>
                         {/*<span>Число имён {this.state.person[0].num}</span>*/}
                         <div className={s.group}>

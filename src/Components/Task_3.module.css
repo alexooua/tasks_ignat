@@ -138,7 +138,9 @@ input:focus ~ .bar:after {
 }
 
 /*span*/
-
+.num{
+    color: darkblue;
+ }
 .rounded {
     margin: 5px;
     counter-reset: li;
@@ -161,9 +163,8 @@ input:focus ~ .bar:after {
 .rounded span:hover {background: #E9E4E0;}
 .rounded span:hover:before {transform: rotate(360deg);}
 .rounded span:before {
-    list-style-type:upper-roman;
     content: counter(li);
-    counter-increment: li;
+    /*counter-increment: li;*/
     position: absolute;
     left: -1.3em;
     top: 50%;
