@@ -12,3 +12,7 @@
 text{
     word-wrap: break-word;
 }
+.nameTask{
+    color: crimson;
+    margin: 5px;
+}
