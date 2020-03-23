@@ -1,15 +1,11 @@
 import React from 'react';
 import s from "./Task_3.module.css"
+import Task_4 from "./Task_4";
 
 class Task_3 extends React.Component {
     task_3Ref = React.createRef()
     state = {
-        person: [
-            {
-                name: "",
-
-            },
-        ],
+        persons: [],
         num:0
     }
 
@@ -19,7 +15,10 @@ class Task_3 extends React.Component {
         if (newName) {
             this.task_3Ref.current.value = ''
             num++
+            let newPerson={name:newName}
+            let newPersons=[...this.state.persons,newPerson]
             this.setState({
+                persons:newPersons,
                 num:num
             })
          alert(`HI!!! My name is ${newName}`)
@@ -32,24 +31,27 @@ class Task_3 extends React.Component {
         return (
 
             <div className={s.task_3}>
-                <did className={s.blocks}>
+                <div className={s.blocks}>
                     <div className={s.title}><h3>Task_3</h3></div>
                     <div className={s.block}>
                         <ol className={s.rounded}>
-                            <li><span>Число имён <myspan className={s.num}>{this.state.num}</myspan></span></li>
+                            <li><span className={s.numName}>Число имён <myspan className={s.num}>{this.state.num}</myspan></span></li>
                         </ol>
-                        {/*<span>Число имён {this.state.person[0].num}</span>*/}
+
                         <div className={s.group}>
                             <input ref={this.task_3Ref} type="text" required/>
                             <span className={s.bar}></span>
                             <label>Имя</label>
                         </div>
 
-                        {/*<input type="text" ref={this.task_3Ref} placeholder={"Put name"}/>*/}
+
                         <a onClick={this.task_3Button} name="name" href="#name">Add</a>
+
                     </div>
 
-                </did>
+                </div>
+
+                <Task_4 persons={this.state.persons} />
 
             </div>
         );
